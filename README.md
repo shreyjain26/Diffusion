@@ -1,1 +1,2 @@
 # Diffusion
+Implemented Denoising Diffusion Probabilistic Model using Pytorch on the CIFAR - 10 Dataset. The model trains well on the dataset as implied by the training and validation loss are almost equal. Hence, the model is neither overfitting nor underfitting. However, the model is not able to generate good quality images. A few reasons for this could be that the dataset is not too huge, the quality of the images are low, the model did not train for a long time and the hyperparameters are not optimized. But it does a fair amount of good amount generation.
